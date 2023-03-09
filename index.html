@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Intro component with sign up form</title>
+
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+    <div class="right">
+      <button class="banner"><span class="try">Try it free 7 days </span><span class="trial">then $20/mo. thereafter</span></button>
+      <form action="submit">
+        <input type="text" placeholder="First Name" required>
+        <span class="material-symbols-outlined">
+          error
+          </span>
+        <p class="first-error">First Name cannot be empty</p>
+        <input type="text" placeholder="Last Name" required>
+        <span class="material-symbols-outlined second-error">
+          error
+          </span>
+        <p class="first-error">Second Name cannot be empty</p>
+        <input type="email" placeholder="Email Address" required>
+        <span class="material-symbols-outlined third-error">
+          error
+          </span>
+        <p class="first-error">Looks like this is not an email</p>
+        <input type="password" placeholder="Password" required>
+        <span class="material-symbols-outlined forth-error">
+          error
+          </span>
+        <p class="first-error">Password must have 8 min characters</p>
+        <button class="btn">Claim your free trial </button>
+        <span class="footer">By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></span>
+      </form>
+    </div>
+  </div>
+
+  <!-- -
+
+  
+
+  
+   -->
+  
+  <script src="script.js"></script>
+</body>
+</html>
